@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from app.core.config import settings
 from app.core.database import init_db
 from app.api.grinding_peru_enhanced_routes import router as grinding_peru_router
+from app.api.integrated_routes import router as integrated_router
 from app.services.monitoring import start_monitoring
 from app.services.notifications import NotificationService
 
@@ -62,6 +63,7 @@ app.add_middleware(
 
 # Include API routes
 app.include_router(grinding_peru_router, prefix="/api/v1/grinding-peru")
+app.include_router(integrated_router)
 
 
 @app.get("/")

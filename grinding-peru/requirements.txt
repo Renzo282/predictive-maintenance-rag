@@ -1,0 +1,68 @@
+# Sistema de Soporte a la Decisión para Mantenimiento Predictivo
+# Grinding Perú - Arequipa, 2025
+
+# Framework Web
+fastapi==0.116.2
+uvicorn[standard]==0.35.0
+starlette==0.48.0
+
+# Base de Datos
+supabase==2.19.0
+psycopg2-binary==2.9.9
+
+# Autenticación y Seguridad
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+bcrypt==4.3.0
+
+# Variables de Entorno
+python-dotenv==1.1.1
+
+# IA y Machine Learning
+openai==1.108.0
+scikit-learn==1.7.2
+pandas==2.3.2
+numpy==2.3.3
+
+# RAG (Retrieval-Augmented Generation)
+langchain==0.3.27
+langchain-core==0.3.76
+langchain-text-splitters==0.3.11
+chromadb==1.1.0
+
+# Procesamiento de Datos
+scipy==1.16.2
+joblib==1.5.2
+
+# HTTP y Cliente
+httpx==0.28.1
+requests==2.32.5
+
+# Utilidades
+pydantic==2.11.9
+typing-extensions==4.15.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+
+# Logging y Monitoreo
+coloredlogs==15.0.1
+
+# Desarrollo y Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+black==24.10.0
+flake8==7.1.1
+
+# Serialización
+orjson==3.11.3
+PyYAML==6.0.2
+
+# Criptografía
+cryptography==46.0.1
+pyjwt==2.10.1
+
+# Utilidades del Sistema
+click==8.3.0
+tqdm==4.67.1
+rich==14.1.0
